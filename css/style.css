@@ -8239,7 +8239,7 @@ h1, h2, h3, h4, h5,
         border-bottom: 1px solid #2f89fc; }
     #sidebar ul li.active > a {
       background: transparent;
-      color: #fff; }
+      color: #2f89fc; }
       #sidebar ul li.active > a:hover {
         background: #2f89fc;
         border-bottom: 1px solid #2f89fc; }
