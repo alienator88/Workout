@@ -8368,11 +8368,3 @@ a[data-toggle="collapse"] {
 .subscribe-form .form-control {
   background: #4897fc; }
 
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
