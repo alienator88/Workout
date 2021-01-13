@@ -8367,23 +8367,3 @@ a[data-toggle="collapse"] {
 
 .subscribe-form .form-control {
   background: #4897fc; }
-
-.div-bg {
-    background-color: #32373d; 
-    border-radius: 16px; 
-    width: 500px; 
-    height: 150px; 
-    text-align: center;
-    }
-    
-.div-img-left {
-    float: left; 
-    max-width: 100%; 
-    max-height: 100%;
-    }
-    
-.div-img-right {
-    float: right; 
-    max-width: 100%; 
-    max-height: 100%;
-    }
