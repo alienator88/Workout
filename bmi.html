@@ -56,26 +56,21 @@
 
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5 pt-5">
-        <h2 class="mb-4">Calculate your BMI</h2>
+        <h2 class="mb-4">Calculate your body mass index</h2>
 
         <form onsubmit="return calcBMI();">
-          System:
-          <label>
-            <input type="radio" id="bmi-metric" name="bmi-measure" onchange="measureBMI()" checked/> Metric
-          </label>
-          <label>
-            <input type="radio" id="bmi-imperial" name="bmi-measure" onchange="measureBMI()"/> Imperial
-          </label>
+
+          <h6>Weight:</h6>
+          <input id="bmi-weight" type="number" min="1" max="999" required style="width: 5em;"/> 
+          <span id="bmi-weight-unit">LBS</span>
           <br><br>
          
-          Weight:
-          <input id="bmi-weight" type="number" min="1" max="635" required/> 
-          <span id="bmi-weight-unit">KG</span>
-          <br><br>
-         
-          Height:
-          <input id="bmi-height" type="number" min="54" max="272" required/>
-          <span id="bmi-height-unit">CM</span>
+          <h6>Height:</h6>
+          <input id="bmi-height-ft" type="number" min="1" max="10" required style="width: 5em;"/>
+          <span id="bmi-height-unit">Feet</span>
+          
+          <input id="bmi-height-in" type="number" min="0" max="12" required style="width: 5em;"/>
+          <span id="bmi-height-unit">Inches</span>
           <br><br>
          
           <input type="submit" value="Calculate BMI"/>
